@@ -11,4 +11,6 @@ import java.util.List;
 public interface AuthorRepository extends MongoRepository<Author, String>{
 
     public List<Author> findByIdIn(List<String> ids);
+
+    public Author findByName(String name);
 }

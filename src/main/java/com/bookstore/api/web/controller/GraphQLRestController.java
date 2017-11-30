@@ -63,10 +63,6 @@ public class GraphQLRestController {
                         (Object) null);
             }
 
-        /*if (!executionResult.getErrors().isEmpty()) {
-            return sanitize(executionResult);
-        }*/
-
         return executionResult;
     }
 
